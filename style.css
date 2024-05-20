@@ -38,6 +38,7 @@ header{
     a{
         text-decoration: none;
         color: white;
+        font-weight: bolder;
     }
     a:hover{
         text-decoration: underline;
@@ -48,10 +49,10 @@ section{
     font-family: var(--fonte3);
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 30px;
+    padding-left: 10vw;
     font-size: 3.5vw;
-    font-weight: normal;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.685);
+    
+    
     line-height: 2em;
 }
 section.normal{
@@ -61,16 +62,17 @@ section.normal{
 
 section.imagem{
     color: white;
-    box-shadow: 6px 6px 13px 10px rgba(0, 0, 0, 0.541);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.685);
     p{  
+        display: inline-block;
         padding: 10px;
         background-color: rgba(0, 0, 0, 0.555);
-        display: inline-block;
     }
 }
 section#img1{
     background-image: url(imagens/background001.jpg);
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -84,6 +86,10 @@ footer{
     background-color: black;
     color: white;
     font-family: var(--fonte1);
-    padding: 10px;
     text-align: center;
+    padding: 10px;
+    
+    p{
+        font-size: 12px;
+    }
 }
